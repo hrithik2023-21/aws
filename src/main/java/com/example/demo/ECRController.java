@@ -8,6 +8,6 @@ public class ECRController {
 
 	@GetMapping(path = "/welcome")
 	public String welcome() {
-		return "Hello welcome to ECR";
+		return "Hello welcome to ECR and jenkins";
 	}
 }
