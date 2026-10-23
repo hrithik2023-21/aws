@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Get the source code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                     url: 'https://github.com/hrithik2023-21/aws.git'
             }
         }
